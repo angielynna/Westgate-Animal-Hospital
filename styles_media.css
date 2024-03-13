@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+    /* Responsive styles for tablets and mobile devices */
+    header {
+        padding: 5px 10px;
+    }
+
+    ul li a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    /* Add more responsive styles as needed */
+}
+
+@media (max-width: 576px) {
+    /* Responsive styles for typical mobile devices */
+    ul li a {
+        font-size: 14px;
+    }
+
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info-image {
+        width: 100%;
+        max-height: none;
+        margin-bottom: 20px;
+    }
+
+    .info-text {
+        max-width: 100%;
+    }
+}
